@@ -1,4 +1,4 @@
-FROM node:current-alpine
+FROM node:17.8-alpine3.15
 
 ENV NUXT_PORT=80
 ENV NUXT_HOST=0.0.0.0
